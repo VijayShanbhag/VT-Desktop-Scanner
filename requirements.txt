@@ -1,0 +1,4 @@
+requests
+cryptography
+yara-python
+tkinterdnd2
