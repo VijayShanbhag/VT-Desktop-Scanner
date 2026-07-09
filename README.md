@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green)
+![VirusTotal](https://img.shields.io/badge/API-VirusTotal-orange)
+![YARA](https://img.shields.io/badge/YARA-Integrated-red)
+
+
 # VT-Desktop-Scanner
 
 VT Desktop Scanner is a Python desktop application that scans files for potential malware using the VirusTotal API and local YARA rules. It supports scanning individual files or entire folders, securely stores the user's VirusTotal API key using encryption, and allows scan results to be exported for later analysis. This project was developed to explore malware analysis concepts, API integration, secure credential handling, and desktop application development using Python.
@@ -77,6 +84,37 @@ If you are using a VirusTotal Premium API key, this delay can be adjusted or rem
 5. Local YARA rules are executed to identify known malware patterns.
 6. Results from both sources are displayed in the application.
 7. Reports can be exported as JSON or CSV files.
+
+
+## Screenshots
+
+### Main Interface
+
+![Main Interface](images/Dashboard.png)
+
+The main application window used to load the VirusTotal API key, select files or folders, start scans, export reports, and register the Windows context menu.
+
+
+### Selecting a File
+
+![Selecting a File](images/selecting_file.png)
+
+Choose an individual file or an entire folder for malware analysis.
+
+
+### Completed Scan
+
+![Completed Scan](images/scanning.png)
+
+Example of a completed scan showing the calculated SHA-256 hash and scan status.
+
+
+### Exported Report
+
+![Exported Report](images/report.png)
+
+Scan results exported in JSON format for later analysis.
+
 
 
 ## Future Improvements
